@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+    display: flex;
+    border: solid;
+    border-width: 0px;
+}
+
+.main-table {
+    text-align: center;
+    margin: 1em;
+    display: inline-block;
+}
+
+.ticblock {
+    text-align: center;
+    padding: 9px;
+    border: solid;
+    border-width: 0.5px;
+    background:powderblue;
+    width: 10em;
+    height: 10em;
+}
+
+img {
+    max-height:100%;
+    max-width:100%
+}
